@@ -15,12 +15,12 @@ public class Booking {
 
     @Column(name="date")
     private String date;
-
-    @JsonBackReference({"bookinga"})
-    @ManyToOne()
-    @JoinTable(
-
-    )
+//
+//    @JsonBackReference({"bookinga"})
+//    @ManyToOne()
+//    @JoinTable(
+//
+//    )
     public Booking(String date) {
         this.date = date;
     }
